@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FX Master - Live Trading</title>
+    <link rel="stylesheet" href="chart_styles.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Header: Buy/Sell Buttons -->
+        <header class="header">
+            <div class="brand">FX Master</div>
+            <div class="actions">
+                <button class="btn-sell">SELL</button>
+                <button class="btn-buy">BUY</button>
+            </div>
+        </header>
+
+        <div class="main-body">
+            <!-- Sidebar: Pairs List -->
+            <aside class="sidebar">
+                <ul>
+                    <li>EUR/USD</li>
+                    <li>GBP/USD</li>
+                    <li>USD/JPY</li>
+                    <li>XAU/USD</li>
+                </ul>
+            </aside>
+
+            <!-- Chart Area -->
+            <main class="chart-area">
+                <div id="chart"></div>
+            </main>
+        </div>
+    </div>
+
+    <!-- Load Chart Library and our custom script -->
+    <script src="https://unpkg.com/lightweight-charts/dist/lightweight-charts.standalone.production.js"></script>
+    <script src="chart_logic.js"></script>
+</body>
+</html>

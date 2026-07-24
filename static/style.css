@@ -1,0 +1,64 @@
+/* FX Master Professional Dark Theme */
+body {
+    background-color: #0b0e11;
+    color: #eaecef;
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #1e2329;
+    padding: 20px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: #f0b90b;
+    border-bottom: 3px solid #f0b90b;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+}
+
+.signal-box {
+    background-color: #1e2329;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px solid #333;
+}
+
+h3 { color: #f0b90b; margin-top: 0; }
+
+ul { list-style: none; padding: 0; }
+
+li {
+    background: #2b3139;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 6px;
+    border-left: 5px solid #f0b90b;
+    font-weight: 500;
+}
+
+/* Buy/Sell Buttons */
+.trading-controls {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.btn-buy, .btn-sell {
+    padding: 15px 40px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.btn-buy { background-color: #02c076; color: white; }
+.btn-sell { background-color: #f84960; color: white; }
+
+.btn-buy:hover { transform: scale(1.05); }
+.btn-sell:hover { transform: scale(1.05); }

@@ -1,0 +1,21 @@
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+.header {
+    text-align: center;
+    color: #00ff00; /* FX Master Green */
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+.signal-box {
+    border: 1px solid #333;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #1e1e1e;
+}
+h3 { color: #ff9900; }
+ul { list-style-type: none; }
+li { padding: 10px; border-bottom: 1px solid #333; }
