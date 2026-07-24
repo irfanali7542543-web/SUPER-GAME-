@@ -1,0 +1,44 @@
+2026-07-21 08:46:50,454 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-21 08:46:50,454 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-21 08:46:50,458 - INFO -  * Restarting with stat
+2026-07-21 08:46:51,046 - WARNING -  * Debugger is active!
+2026-07-21 08:46:51,114 - INFO -  * Debugger PIN: 943-393-614
+2026-07-21 08:53:44,544 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-21 08:53:44,545 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-21 08:53:44,549 - INFO -  * Restarting with stat
+2026-07-21 08:53:45,139 - WARNING -  * Debugger is active!
+2026-07-21 08:53:45,219 - INFO -  * Debugger PIN: 854-227-046
+2026-07-21 09:03:19,147 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-21 09:03:19,147 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-21 09:03:19,150 - INFO -  * Restarting with stat
+2026-07-21 09:03:19,791 - WARNING -  * Debugger is active!
+2026-07-21 09:03:19,884 - INFO -  * Debugger PIN: 102-209-481
+2026-07-21 09:06:22,676 - INFO -  * Detected change in '/data/data/com.termux/files/home/FX.master/main_files/app.py', reloading
+2026-07-21 09:06:22,922 - INFO -  * Restarting with stat
+2026-07-21 09:06:24,291 - WARNING -  * Debugger is active!
+2026-07-21 09:06:24,350 - INFO -  * Debugger PIN: 789-183-498
+2026-07-21 09:06:42,635 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-21 09:06:42,635 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-21 09:06:42,639 - INFO -  * Restarting with stat
+2026-07-21 09:06:43,235 - WARNING -  * Debugger is active!
+2026-07-21 09:06:43,295 - INFO -  * Debugger PIN: 133-095-990
+2026-07-21 09:13:51,080 - INFO -  * Detected change in '/data/data/com.termux/files/home/FX.master/main_files/core_files/transactions.py', reloading
+2026-07-21 09:13:51,308 - INFO -  * Restarting with stat
+2026-07-21 09:13:52,463 - WARNING -  * Debugger is active!
+2026-07-21 09:13:52,518 - INFO -  * Debugger PIN: 978-321-116
+2026-07-21 09:15:01,038 - INFO -  * Detected change in '/data/data/com.termux/files/home/FX.master/main_files/app.py', reloading
+2026-07-21 09:15:01,199 - INFO -  * Restarting with stat
+2026-07-21 09:15:02,254 - WARNING -  * Debugger is active!
+2026-07-21 09:15:02,312 - INFO -  * Debugger PIN: 118-685-322
+2026-07-21 09:15:15,664 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-21 09:15:15,665 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-21 09:15:15,666 - INFO -  * Restarting with stat
+2026-07-21 09:15:16,253 - WARNING -  * Debugger is active!
+2026-07-21 09:15:16,306 - INFO -  * Debugger PIN: 250-837-595
+2026-07-21 09:24:18,891 - INFO -  * Detected change in '/data/data/com.termux/files/home/FX.master/main_files/app.py', reloading
+2026-07-21 09:24:19,182 - INFO -  * Restarting with stat
