@@ -1,21 +1,23 @@
-from flask import Flask, send_from_directory, render_template
+from flask import Flask, render_template, session
 
 app = Flask(__name__)
+app.secret_key = 'fx_master_secret_key'
 
-# Route for the main page
 @app.route('/')
 def home():
     return render_template('index.html')
 
-# Route to serve videos
-@app.route('/video/<filename>')
-def serve_video(filename):
-    return send_from_directory('static/videos', filename)
+@app.route('/watch')
+def watch_video():
+    session['watched'] = True
+    return "<h1>Video watched! Now you can download.</h1><br><a href='/'>Go back</a>"
 
-# Route to download files
-@app.route('/download/<filename>')
-def download_file(filename):
-    return send_from_directory('static/downloads', filename, as_attachment=True)
+@app.route('/download')
+def download_file():
+    if session.get('watched'):
+        return "<h1>Download starting...</h1>"
+    else:
+        return "<h1>Please watch the video first!</h1><br><a href='/'>Go back</a>"
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000, debug=False)
+    app.run(port=5000)

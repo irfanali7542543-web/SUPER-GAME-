@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FX Master - Live Trading</title>
     <link rel="stylesheet" href="chart_styles.css">
+    <style>
+        .watch-btn { display: block; padding: 10px; background: #ffcc00; color: black; text-align: center; text-decoration: none; font-weight: bold; margin-top: 10px; border-radius: 5px; }
+    </style>
 </head>
 <body>
     <div class="app-container">
@@ -14,6 +17,8 @@
             <div class="actions">
                 <button class="btn-sell">SELL</button>
                 <button class="btn-buy">BUY</button>
+                <!-- نیا ویڈیو لنک -->
+                <a href="/watch" class="watch-btn">Watch Video to Unlock</a>
             </div>
         </header>
 
@@ -33,10 +38,10 @@
                 <div id="chart"></div>
             </main>
         </div>
-    </div>
 
-    <!-- Load Chart Library and our custom script -->
-    <script src="https://unpkg.com/lightweight-charts/dist/lightweight-charts.standalone.production.js"></script>
-    <script src="chart_logic.js"></script>
+        <!-- Load Chart Library and our custom script -->
+        <script src="https://unpkg.com/lightweight-charts/dist/lightweight-charts.standalone.production.js"></script>
+        <script src="chart_logic.js"></script>
+    </div>
 </body>
 </html>
