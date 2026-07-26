@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body { margin: 0; overflow: hidden; background: #000; }
+        .arena-container { 
+            position: relative; width: 100vw; height: 100vh; 
+            background: url('{{ url_for("static", filename="battle_bg.jpg") }}') no-repeat center/cover;
+        }
+        
+        /* Lobby Characters (Your Pair) */
+        .my-char { position: absolute; width: 15%; height: auto; z-index: 10; }
+        
+        /* AI Enemies */
+        .ai-bot { position: absolute; width: 15%; height: auto; z-index: 5; }
+    </style>
+</head>
+<body>
+    <div class="arena-container">
+        <!-- آپ کے لابی والے کردار -->
+        <img src="{{ url_for('static', filename='char_blue_male.png') }}" id="my_char1" class="my-char" style="bottom: 10%; left: 10%;">
+        <img src="{{ url_for('static', filename='char_blue_female.png') }}" id="my_char2" class="my-char" style="bottom: 10%; left: 25%;">
+        
+        <!-- AI دشمن -->
+        <img src="{{ url_for('static', filename='char_red_enemy.png') }}" id="ai1" class="ai-bot" style="bottom: 10%; right: 20%;">
+    </div>
+</body>
+</html>

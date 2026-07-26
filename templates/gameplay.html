@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body, html { margin: 0; padding: 0; width: 100%; height: 100%; overflow: hidden; background: #000; }
+        .container { position: relative; width: 100vw; height: 100vh; }
+        .bg-img { width: 100%; height: 100%; object-fit: contain; display: block; }
+        
+        /* Buttons setup */
+        .btn { 
+            position: absolute; 
+            display: block; 
+            z-index: 100; 
+            background: rgba(255, 255, 255, 0.1); /* Ye halka sa colour button dikhane ke liye hai */
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Game Image -->
+        <img src="{{ url_for('static', filename='logo.webp') }}" class="bg-img">
+        
+        <!-- START Button -->
+        <a href="/start_battle" class="btn" style="bottom: 12%; right: 4%; width: 22%; height: 12%;"></a>
+        
+        <!-- Inventory Button -->
+        <a href="/inventory" class="btn" style="bottom: 2%; right: 7%; width: 8%; height: 8%;"></a>
+        
+        <!-- Missions Button -->
+        <a href="/missions" class="btn" style="bottom: 2%; right: 16%; width: 8%; height: 8%;"></a>
+    </div>
+</body>
+</html>

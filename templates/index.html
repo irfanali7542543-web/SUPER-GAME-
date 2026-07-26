@@ -1,15 +1,19 @@
 <style>
-    body { background-color: #1a1a1a; color: white; text-align: center; font-family: Arial; }
-    .btn { 
-        display: inline-block; padding: 15px 30px; margin: 10px; 
-        background-color: #ff4500; color: white; text-decoration: none; 
-        border-radius: 10px; font-weight: bold; 
-    }
-    .btn:hover { background-color: #e03e00; }
+body { background-color: #1a1a1a; color: white; text-align: center; font-family: Arial; }
+.btn { 
+    display: inline-block; padding: 15px 30px; margin: 10px; 
+    background-color: #ff4500; color: white; text-decoration: none; 
+    border-radius: 10px; font-weight: bold; 
+}
+.btn:hover { background-color: #e03e00; }
+.logo { width: 200px; margin: 20px auto; display: block; }
 </style>
+
+<!-- لوگو کا حصہ -->
+<img src="{{ url_for('static', filename='logo.webp') }}" alt="FX Master" class="logo">
 
 <h1>Welcome to Super Game</h1>
 <br>
-<a href="/video/my_video.mp4" class="btn">Watch 10 Min Video</a>
+<a href="/video/my_video.mp4" class="btn">Watch 10 Win Video</a>
 <br><br>
 <a href="/download/game_file.zip" class="btn">Download Now</a>
